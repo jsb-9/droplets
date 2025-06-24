@@ -32,6 +32,7 @@ pandas-market-calendars = "^4.6.1"
 matplotlib = "^3.10.1"
 jupyter-core = "^5.7.2"
 motor = "^3.7.0"
+scipy = "^1.15.3"
 
 
 [build-system]

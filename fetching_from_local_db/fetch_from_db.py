@@ -10,7 +10,7 @@ from core import settings
 
 from .enums import AssetClass, Index
 
-client = motor.AsyncIOMotorClient(settings.DATA_API, 27017)
+client = motor.AsyncIOMotorClient('mongodb://localhost', 27017)
 
 db = client["historical_api"]
 spot_collection = db["spot"]
